@@ -54,3 +54,12 @@ reply: b'221 Bye\r\n'
 reply: retcode (221); Msg: b'Bye'
 
 ```
+
+
+### Rodando os testes
+Há uma série de testes unitários dentro da pasta `tests/`. Esses testes foram escritos utilizando
+a biblioteca `unittest` padrão do Python, e podem ser rodados através do seguinte comando:
+
+```
+  python3.5 -m unittest -v tests/server_tests.py
+```
